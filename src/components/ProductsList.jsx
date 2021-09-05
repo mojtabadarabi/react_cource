@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Product from "./Product";
+import styles from './product.module.css'
 
 function ProductsList() {
   const [products, setproducts] = useState([
@@ -53,8 +54,10 @@ function ProductsList() {
   };
 
   // .. functions
+
   return (
     <div>
+      {!products.length&&<div className={styles.alertEmptyMessage}><h3>your cart is empty:(( go shopping....</h3><button className={`${styles.button} ${styles.goShopBtn}`}>Go Shop</button></div>}
       {products.map((product) => {
         return (
           <Product

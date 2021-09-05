@@ -46,3 +46,13 @@
     padding: 2px 5px;
     outline-color: #6d28d9;
 }
+.alertEmptyMessage{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    padding: 5px;
+    margin: 15px;
+}
+.goShopBtn{
+    margin: 15px ;
+}

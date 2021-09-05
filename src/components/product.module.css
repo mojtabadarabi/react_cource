@@ -1,0 +1,48 @@
+.product{
+    border:1px solid #ccc;
+    padding:20px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.065);
+    width: 40rem;
+    margin-top: 15px;
+}
+.button{
+    color: #6d28d9;
+    background-color: #fff;
+    border: 1px solid #6d28d9;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: auto 10px;
+}
+.lightBg{
+    background-color: #ede9fe;
+}
+.infoContainer{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.btnContainer{
+ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quantity{
+    border-radius: 50%;
+    border: none;
+}
+.badge{
+    cursor: auto;
+}
+.inputTxt{
+    border: 1px solid #6d28d9;
+    color: #6d28d9;
+    border-radius: 8px;
+    padding: 2px 5px;
+    outline-color: #6d28d9;
+}

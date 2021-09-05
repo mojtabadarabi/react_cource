@@ -17,6 +17,7 @@
     padding: 5px 10px;
     cursor: pointer;
     margin: auto 10px;
+  
 }
 .lightBg{
     background-color: #ede9fe;
@@ -55,4 +56,8 @@
 }
 .goShopBtn{
     margin: 15px ;
+}
+.remove{
+    color: rgb(236, 68, 68);
+    border: 1px solid rgb(236, 68, 68);
 }
